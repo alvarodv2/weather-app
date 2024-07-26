@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, hwb(181 12% 35%), #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.search button img {
+    width: 50px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.detalles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind{
+    font-size: px;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+/* Media Query para iPhone 12 Pro*/
+@media (max-width: 390px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .card {
+        margin: 20px auto;
+        padding: 25px 20px;
+    }
+
+    .search input {
+        height: 55px;
+        padding: 12px 20px;
+        font-size: 17px;
+        margin-right: 4px;
+    }
+
+    .search button {
+        width: 55px;
+        height: 55px;
+    }
+
+    .search button img {
+        width: 45px;
+    }
+
+    .weather-icon {
+        width: 140px;
+        margin-top: 25px;
+    }
+
+    .weather h1 {
+        font-size: 65px;
+    }
+
+    .weather h2 {
+        font-size: 38px;
+    }
+
+    .detalles {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 12px;
+        margin-top: 35px;
+    }
+
+    .col {
+        margin-bottom: 12px;
+    }
+
+    .col img {
+        width: 35px;
+    }
+
+    .humidity, .wind {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-right: 4px;
+    }
+}
+/* Media Query para iPhone 14 Pro Max*/
+@media (max-width: 430px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .card {
+        margin: 20px auto;
+        padding: 30px 25px;
+    }
+
+    .search input {
+        height: 60px;
+        padding: 15px 25px;
+        font-size: 18px;
+    }
+
+    .search button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .search button img {
+        width: 50px;
+    }
+
+    .weather-icon {
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    .weather h1 {
+        font-size: 70px;
+    }
+
+    .weather h2 {
+        font-size: 40px;
+    }
+
+    .detalles {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 15px;
+        margin-top: 40px;
+    }
+
+    .col {
+        margin-bottom: 15px;
+    }
+
+    .col img {
+        width: 35px;
+    }
+
+    .humidity, .wind {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-right: 4px;
+    }
+}
+
+/* Media Query para iPhone 12 Pro*/
+@media (max-width: 390px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .card {
+        margin: 20px auto;
+        padding: 25px 20px;
+    }
+
+    .search input {
+        height: 55px;
+        padding: 12px 20px;
+        font-size: 17px;
+        margin-right: 4px;
+    }
+
+    .search button {
+        width: 55px;
+        height: 55px;
+    }
+
+    .search button img {
+        width: 45px;
+    }
+
+    .weather-icon {
+        width: 140px;
+        margin-top: 25px;
+    }
+
+    .weather h1 {
+        font-size: 65px;
+    }
+
+    .weather h2 {
+        font-size: 38px;
+    }
+
+    .detalles {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 12px;
+        margin-top: 35px;
+    }
+
+    .col {
+        margin-bottom: 12px;
+    }
+
+    .col img {
+        width: 35px;
+    }
+
+    .humidity, .wind {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-right: 4px;
+    }
+}
